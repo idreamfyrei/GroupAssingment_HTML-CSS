@@ -1,0 +1,134 @@
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    font-size: 30px;
+    padding: 2px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #00000085;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nav-links{
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.146);
+}
+
+.nav-links li{
+    padding: 10px;
+    display: inline-block;
+
+}
+.nav-links li a {
+    color: rgb(211, 204, 204);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-links li:hover{
+    color: rgb(200, 200, 200);
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.7);;
+}
+
+.nav-links li:nth-child(2):hover #dropdown-menu1, .nav-links li:nth-child(3):hover #dropdown-menu2{
+    display: block;
+}
+
+/*Drop down Styles*/
+#dropdown-menu1, #dropdown-menu2{
+    position: absolute;
+    width: auto;
+    max-width: 150px;
+    display: none;
+    background-color: rgb(14, 1, 1);
+    padding: 5px;
+}
+
+#dropdown-menu1 li, #dropdown-menu2 li{
+    display: block;
+}
+
+#dropdown-menu1 li:hover, #dropdown-menu2 li:hover{
+    background-color: rgb(143, 128, 43);
+}
+#dropdown-menu1 li a, #dropdown-menu2 li a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+/*Form Styling*/
+
+section {
+    border: 2px solid black;
+    box-shadow: 0 5px 10px 0 rgb(142, 138, 138), 0 5px 10px 0 rgb(165, 159, 159);
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    top: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    overflow-y: auto;
+}
+
+#image {
+    position: sticky;
+    float: right;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+    margin: 0%;    
+  }
+
+#image img{
+    height: 100%;
+    width: 100%;
+}
+
+#form_details {
+    padding: 2.5%;
+    height: auto;
+}
+
+#form_details h2 {
+    margin-right: 50%;
+}
+
+#form_details input {    
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-bottom: solid black 1px;
+}
+
+.user-details input{
+    width: 20%;
+}
+
+#buttons {
+    margin-top: 50px;
+    position: absolute;
+    bottom: 3%;
+    left: 35%;
+  }
+
+  #buttons button {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(186, 96, 241);
+    border-radius: 3px;
+    font-size: 15px;
+    
+  }
+  
